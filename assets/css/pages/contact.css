@@ -1,0 +1,140 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+.contact-page{
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.contact-page>img{
+    width: 100%;
+}
+
+.contact-page-left-title{
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.contact-left-item{
+    margin-bottom: 10px;
+}
+
+.contact-left-item i{
+    color: var(--primary-color);
+    margin-right: 25px;
+}
+
+.contact-left-item span{
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.contact-page-left ul{
+    margin-bottom: 20px;
+}
+
+.contact-map{
+    background: #FFFFFF;
+    border: 2px dashed #FF4880;
+    border-radius: 24px;
+    padding: 16px;
+    height: 300px;
+}
+
+.contact-map iframe{
+    border-radius: 24px;
+    height: 100%;
+}
+
+.contact-page-right{
+    padding: 0 8%;
+}
+
+.contact-page-right-title{
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.contact-page-right>p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-color);
+    margin-bottom: 32px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact-form ::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+.contact-btn{
+    width: 100%;
+    background: #4598E4;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 11px 0;
+    font-size: 14px;
+}
+
+/*-------------------------- Resspone sive ------------------------*/
+@media screen and (max-width: 1200px) {
+    .contact-page-right{
+        padding: 0;
+    }
+
+    .contact-page-left-title{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contact-page-left-title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .contact-left-item i{
+        margin-right: 5px;
+    }
+
+    .contact-left-item span,.contact-page-right>p{
+        font-size: 14px;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .contact-page-left{
+        margin-bottom: 30px;
+    }
+}  
+  
+@media screen and (max-width: 576px) {
+
+}
+
+
+
+
+

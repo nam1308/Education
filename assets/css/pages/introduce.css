@@ -1,0 +1,97 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+main>img{
+    margin-left: 100%;
+    transform: translateX(-100%);
+}
+
+/*------------------------------ Phần về chúng tôi ------------------------*/
+.about-us-intro-text .section-main-title,
+.philosophy-intro-text .section-main-title{
+    margin-bottom: 32px;
+}
+
+.about-us-intro-text p:nth-child(2){
+    margin-bottom: 20px;
+}
+
+.about-us-intro-text p:last-child{
+    color: #444444;
+}
+
+.about-us-intro-img img,.philosophy-intro-img img{
+    width: 100%;
+}
+
+.philosophy-intro-text p{
+    color: #555555;
+}
+
+/*------------------------------ Phần triết lý giáo dục ------------------------*/
+.philosophy-intro{
+    padding: 0 !important;
+}
+
+/*------------------------------ Phần thư viện ------------------------*/
+.library-intro{
+    padding: 0 !important;
+}
+
+.library-intro .section-content{
+    background-color: #A0E9FF;
+    margin: -2px 0;
+}
+
+.library-intro>img{
+    width: 100%;
+}
+
+.library-intro .section-main-title{
+    margin-bottom: 33px;
+}
+
+.library-intro-img{
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 15px 0 ;
+}
+
+.library-intro-img img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

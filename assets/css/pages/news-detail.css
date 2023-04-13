@@ -1,0 +1,254 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+/*------------------------------------ Nội dung trang chi tiết bài viết ------------*/
+.news-detail{
+    padding-top: 0;
+    background-color: #E7F8FE;
+
+}
+
+.news-detail>img{
+    width: 100%;
+}
+
+.news-detail-title{
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.news-detail-title h2{
+    color: var(--secondary-color);
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.news-detail-title ul{
+    display: flex;
+    align-items: center;
+}
+
+.news-detail-img{
+    margin-right: 30px;
+}
+
+.news-detail-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.news-detail-info{
+    display: flex;
+    align-items: center;
+}
+
+.news-detail-evaluate i{
+    color: #FDC800;
+    margin-right: 5px;
+}
+
+.news-detail-info h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.news-detail-info span{
+    font-size: 16px;
+}
+
+.news-detail-content{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    padding: 50px 40px;
+}
+
+.news-detail-content p{ 
+    margin-bottom: 15px;
+}
+
+.news-detail-content-album img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.news-detail-comment{
+    margin-top: 50px;
+}
+
+.comment-share-item span{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 38px;
+    margin-right: 20px;
+}
+
+.comment-share-item{
+    margin-left: 5px;
+}
+
+.comment-share-item a img{
+    width: 22px;
+}
+
+.news-detail-comment-content{
+    margin-top: 30px;
+}
+
+.news-detail-comment-content>p{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 18px;
+    color: var(--secondary-color);
+}
+
+.comment-form form textarea{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.comment-form form ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 10px 15px;
+}
+
+.comment-form form ul li{
+    margin-left: 10px;
+}
+
+.comment-form form ul li input{
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.comment-form-btn{
+    color: #fff;
+    background-color: #189eef;
+    padding: 5px 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.comment-form ::placeholder{
+    color: #999;
+}
+
+.related-posts h3{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FF4880;
+    margin-bottom: 20px;
+}
+
+.related-posts-item {
+    border-radius: 24px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.related-posts-img{
+    height: 172px;
+}
+
+.related-posts-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.related-posts-info{
+    padding: 12px;
+}
+
+.related-posts-info-title{
+    color: var(--text-color);
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.related-posts-info-content{
+    font-weight: 400;
+    -webkit-line-clamp: 2 !important;
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+/*-------------------------- Resspone sive ------------------------*/
+@media screen and (max-width: 1200px) {
+    .related-posts h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .news-detail-content{
+        padding: 30px 15px;
+    }
+
+    .comment-form form ul{
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+    }
+
+    .comment-form form ul li{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .related-posts-img{
+        height: 145px;
+    }
+
+    .related-posts-info-title{
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .related-posts-info-content{
+        font-size: 12px;
+    }
+
+    .news-detail-img img{
+        width: 60px;
+        height: 60px;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .news-detail-content{
+        margin-bottom: 30px;
+    }
+}  
+  
+@media screen and (max-width: 576px) {
+
+}   
+
+
+
+
+
+
+
+
+
+
+

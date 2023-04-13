@@ -1,0 +1,367 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+/*-------------------------------- Phần điểm khác biệt ------------------------*/
+.difference-ct-title{
+    padding: 100px 0;
+}
+
+.difference-ct-title .section-main-title{
+    margin-bottom: 24px;
+}
+
+.difference-ct-title p{
+    color: #271344;
+}
+
+.difference-ct-img{
+    position: relative;
+}
+
+.difference-ct-img-item{
+    position: absolute;
+    border-radius: 50%;
+}
+
+.difference-ct-img-item img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.difference-ct-img-item:nth-child(1){
+    width: 267px;
+    height: 267px;
+    padding: 14px;
+    border: 2px dashed #EEAC00;
+    left: 0;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+.difference-ct-img-item:nth-child(2){
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    border: 2px dashed #2CA2C8;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.difference-ct-img-item:nth-child(3){
+    width: 166px;
+    height: 166px;
+    padding: 10px;
+    border: 2px dashed #FF4880;
+    right: 10%;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+/*-------------------------------- Phần điểm khác biệt 2 ------------------------*/
+.difference-ct-2{
+    background-color: #E7F8FE;
+    padding: 0;
+}
+
+.difference-ct-2 .section-content{
+    width: 100%;
+    padding: 30px 0 30px 0;
+    background-image: url(../../images/difference-ct-2-bg.png);
+    background-repeat: no-repeat;
+}
+
+.difference-ct-2-item-img{
+    padding: 12px;
+    background: #FFFFFF;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.difference-ct-2-text{
+    margin-top: 30px;
+}
+
+.difference-ct-2-text h3 a{
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+.difference-ct-2-text p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #271344;
+}
+
+.difference-2-content .difference-ct-2-item:nth-child(1) .difference-ct-2-item-img{
+    border: 2px dashed #4598E4;
+    border-radius: 4px;
+    transform: rotate(-11.5deg);
+}
+
+.difference-2-content .difference-ct-2-item:nth-child(2) .difference-ct-2-item-img{
+    border: 2px dashed #FF4880;
+    border-radius: 50%;
+}
+
+.difference-2-content .difference-ct-2-item:nth-child(3) .difference-ct-2-item-img{
+    border: 2px dashed #43CD66;
+    border-radius: 4px;
+    transform: rotate(17.34deg);
+}
+
+.difference-2-content .difference-ct-2-item:nth-child(4) .difference-ct-2-item-img{
+    border: 2px dashed #DE8F44;
+}
+
+.difference-ct-2-img{
+    top: 42%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 1;
+}
+
+/*-------------------------------- Phần đội ngũ giáo viên ------------------------*/
+.teachers-difference{
+    background-color: #0FBAF4;
+    margin-top: -2px;
+    position: relative;
+    margin-bottom: 400px;
+    padding-bottom: 200px;
+}
+
+.teachers-difference-slide-item{
+    width: calc(100%/3);
+    padding: 0 15px;
+}
+
+.teachers-difference-img{
+    width: 222px;
+    height: 222px;
+    margin: 0 auto;
+    padding: 14px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px dashed var(--primary-color);
+}
+
+.teachers-difference-img img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+
+.teachers-difference-title{
+    margin: 12px 0 24px 0;
+}
+
+.teachers-difference-title h3 a{
+    color: #4598E4;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.teachers-difference-title p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #271344;
+}
+
+.teachers-difference-title .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.teachers-difference-title .color .color-item{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 0 4px;
+}
+
+.color-item-content{
+    border: 0.5px dashed #FFFFFF;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.teachers-difference-title .color .color-item:nth-child(1){
+    background-color: #2AAAE2;
+}
+
+.teachers-difference-title .color .color-item:nth-child(2){
+    background: #F86A9A;
+}
+
+.teachers-difference-title .color .color-item:nth-child(3){
+    background: #43CD66;
+}
+
+.teachers-difference-slide{
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+}
+
+.teachers-difference .flickity-page-dots .is-selected{
+    background-color: var(--secondary-color);
+}
+
+/*-------------------------- Resspone sive ------------------------*/
+@media screen and (max-width: 1200px) {
+    .difference-ct-title{
+        padding: 80px 0;
+    }
+
+    .difference-ct-2-text h3 a{
+        font-size: 21px;
+    }
+
+    .difference-ct-2-text p{
+        font-size: 14px;
+    }
+    
+    .difference-ct-2-item-img{
+        width: 165px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .difference-ct{
+        padding: 30px 0;
+    }
+
+    .difference-ct-title{
+        padding: 60px 0;
+    }
+    
+    .difference-ct-title p{
+        font-size: 16px;
+    }
+
+    .difference-ct-img-item:nth-child(1){
+        width: 200px;
+        height: 200px;
+    }
+
+    .difference-ct-img-item:nth-child(2){
+        width: 280px;
+        height: 280px;
+    }
+
+    .difference-ct-img-item:nth-child(3){
+        right: 0;
+        width: 130px;
+        height: 130px;
+    }
+
+    .difference-ct-2-text h3 a{
+        font-size: 17px;
+    }
+
+    .difference-ct-2-item-img{
+        width: 145px;
+    }
+
+    .teachers-difference-img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .teachers-difference{
+        padding-bottom: 170px;
+        margin-bottom: 350px;
+    }
+
+    .teachers-difference-title p{
+        font-size: 14px;
+    }
+    
+    .teachers-difference-title .color .color-item{
+        width: 37px;
+        height: 37px;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .difference-ct{
+        padding-bottom: 0;
+    }
+
+    .difference-ct-img{
+        padding: 150px 0;
+    }
+
+    .difference-ct-title{
+        padding: 30px 0;
+    }
+
+    .difference-ct-2-text{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .difference-ct-2-text h3 a{
+        font-size: 20px;
+    }
+
+    .teachers-difference-slide-item{
+        width: 50%;
+    }
+
+    .teachers-difference{
+        padding-bottom: 110px;
+    }
+}  
+  
+@media screen and (max-width: 576px) {
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+.free-material-2{
+    padding: 0;
+    background-color: #E7F8FE;
+    padding-bottom: 100px;
+}
+
+.free-material-2 img{
+    width: 100%;
+}
+
+.free-material-2 .main-news-content-item{
+    margin-bottom: 30px;
+}
+
+.free-material-2 .news-item-info{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

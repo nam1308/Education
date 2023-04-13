@@ -1,0 +1,167 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+.test-train {
+    padding-bottom: 0;
+}
+
+.test-train .section-content{
+    width: 100%;
+    top: 0;
+}
+
+.test-train img{
+    width: 100%;
+}
+
+.test-train .main-train-content{
+    margin: 0;
+}
+
+.main-train-content-item{
+    margin-bottom: 8px;
+}
+
+.test-train .main-train-content-item .active{
+    color: var(--secondary-color);
+    position: relative;
+}
+
+.test-train .main-train-content-item .active::after{
+    content: "";
+    width: 224px;
+    height: 10px;
+    background-color:#FF4880;
+    bottom: -18px;
+    border-radius: 19px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.test-pg{
+    padding-bottom: 150px;
+    background-color: #E7F8FE;
+}
+
+.test-pg-content{
+    background: #FFFFFF;
+    border: 4px dashed #FF4880;
+    border-radius: 70px;
+    padding: 70px 100px;
+}
+
+.test-pg-content .main-news-content-item{
+    margin-bottom: 30px;
+}
+
+.test-pg .news-item-info{
+    padding: 11px 18px;
+}
+
+.test-pg .news-item-info-title{
+    font-size: 18px;
+    font-weight: 800;
+    color: #333;
+}
+
+.test-pg .news-item-info-content{
+    font-size: 16px;
+    margin-bottom: 50px;
+    -webkit-line-clamp: 3 !important;
+    color: #555;
+}
+
+.test-pg .news-box-img{
+    height: 177px;
+}
+
+
+.test-train{
+    background-image: url(../../images/bg-luyenthi-2.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain ;
+}
+
+.test-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-bar{
+    order: 1;
+}
+
+
+
+/*-------------------------- Resspone sive ------------------------*/
+@media screen and (max-width: 1200px) {
+    .test-train .main-train-content-item .active::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .test-pg .news-item-info-content{
+        margin-bottom: 10px;
+    }
+    
+}   
+  
+@media screen and (max-width: 768px) {
+    .test-train{
+        order: 3;
+    }
+
+    .test-pg{
+        order: 2;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .test-pg-content{
+        padding: 20px 20px;
+        border-radius: 20px;
+    }
+
+    .test-pg .news-box-img{
+        height: 135px;
+    }
+
+    .test-pg .news-item-info-content{
+        font-size: 14px;
+    }
+    
+}  
+  
+@media screen and (max-width: 576px) {
+    .test-pg .news-item-info-title{
+        font-size: 16px;
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

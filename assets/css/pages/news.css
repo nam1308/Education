@@ -1,0 +1,30 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+.news-page{
+    padding-top: 0;
+    background-color: #E7F8FE;
+    padding-bottom: 100px;
+}
+
+.news-page>img{
+    width: 100%;
+}
+
+.news-page .main-news-content-item{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.news-page .main-news-content-item:hover{
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
+
+

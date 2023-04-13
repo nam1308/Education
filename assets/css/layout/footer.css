@@ -1,0 +1,160 @@
+/*------------------------------ Phần form đăng ký ------------------------*/
+.dk-form{
+    position: relative;
+    padding: 30px 0;
+}
+
+.dk-form>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dk-intro-title .section-main-title{
+    margin-bottom: 24px;
+}
+
+.dk-form-title p{
+    color: #271344;
+}
+
+.form-dk input,.form-dk textarea{
+    width: 100%;
+    padding: 15px 32px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    background-color: #DE8F44;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+
+footer{
+    background-color: #0065C1;
+    color: #fff;
+    position: relative;
+    padding-top: 40px;
+}
+
+.footer-content{
+    padding-bottom: 30px;
+}
+
+footer a{
+    color: #fff !important;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a:hover{
+    color: var(--orange-color) !important;
+}
+
+footer>img{
+    position: absolute;
+    width: 100%;
+    transform: translateY(-100%)
+}
+
+.footer-top{
+    margin-bottom: 47px;
+}
+
+.footer-top h3{ 
+    font-weight: 700;
+}
+
+.footer-item .footer-title{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--orange-color);
+    margin-bottom: 18px;
+}
+
+.social-network{
+    display: flex;
+}
+
+.social-network li{
+    margin-right: 10px;
+}
+
+.social-network li a{
+    width: 30px;
+    height: 30px;
+}
+
+.social-network img{
+    width: 30px;
+}
+
+.footer-item ul li{
+    margin-bottom: 18px;
+}
+
+.footer-item-ls li{
+    list-style: disc;
+    margin-left: 25px;
+}
+
+.footer-bottom{
+    background-color: #004E95;
+    padding: 14px;
+}
+/*-------------------------- Resspone sive ------------------------*/
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    footer>img{
+        transform: translateY(-110%);
+    }
+
+    .form-dk input, .form-dk textarea{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    footer>img{
+        transform: translateY(-120%);
+    }
+}  
+  
+@media screen and (max-width: 576px) {
+    footer>img{
+        transform: translateY(-130%);
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,495 @@
+ul, li{
+    margin: 0 ;
+}
+
+/*------------- style cho chữ ------------------*/
+.ws-sgct blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    border-left: 5px solid #918f8f;
+}
+
+.ws-sgct blockquote p {
+    margin: 0 !important;
+}
+
+.ws-sgct code {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-size: 0.85rem;
+    color: #e83e8c;
+}
+
+.ws-sgct p,
+.ws-sgct table {
+    margin: 0 0 15px;
+    line-height: 1.6;
+}
+
+.ws-sgct table {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.ws-sgct table>tbody>tr>td,
+.ws-sgct table>tbody>tr>th,
+.ws-sgct table>tfoot>tr>td,
+.ws-sgct table>tfoot>tr>th,
+.ws-sgct table>thead>tr>td,
+.ws-sgct table>thead>tr>th {
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+}
+
+.ws-sgct h6 {
+    font-size: 18px;
+}
+
+.ws-sgct h5 {
+    font-size: 20px;
+}
+
+.ws-sgct h4 {
+    font-size: 22px;
+}
+
+.ws-sgct h3 {
+    font-size: 24px;
+}
+
+.ws-sgct h2 {
+    font-size: 26px;
+}
+
+.ws-sgct ul,
+.ws-sgct ol {
+    margin: 0 0 15px;
+    padding-left: 25px;
+    list-style: disc;
+}
+
+.ws-sgct ul li,
+.ws-sgct ol li {
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.ws-sgct ol {
+    list-style: decimal;
+}
+
+.ws-sgct iframe {
+    margin: auto;
+}
+
+.ws-sgct .syntaxhighlighter {
+    padding: 10px 0;
+}
+
+.ws-sgct h2,
+.ws-sgct h3,
+.ws-sgct h4,
+.ws-sgct h5,
+.ws-sgct h6 {
+    margin: 0 0 15px;
+    font-weight: 500;
+}
+
+/*--------------------------- Phần main -------------------------*/
+section{
+    padding: 55px 0;
+}
+
+/*------------------------ Làm phần thanh điều hướng ------------------------*/
+.navigation-bar{
+    background-color: #ABCD52;
+    padding: 40px;
+    color: #fff;
+}
+
+.navigation-bar h1{
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.tab-web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-web a{ 
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.tab-web span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/*------------------------------------- --*/
+.section-main-title-content h3{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.section-main-title-content h2{
+    font-weight: 900;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.section-main-title-content p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #777777;
+}
+
+.section-main-title-content .img img{   
+    width: 99px;
+    object-fit: contain;
+}
+
+
+/*---------------------------------------- Phần nhận xét học viên  ---------------------------*/
+.main-comment{
+    background-color: var(--orange-color);
+    margin: 30px 0;
+}
+
+.main-comment .section-main-title{
+    padding: 30px 20%;
+}
+
+.main-comment .section-main-title h3{
+    margin-bottom: 16px
+}
+
+.main-comment-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-comment-img{
+    width: 70%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.main-comment-img img{  
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.btn-comment{
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    Width : 90px;
+    Height : 90px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.main-comment-content{
+    margin-bottom: 60px;
+}
+
+.main-comment-content .flickity-page-dots .dot{
+    background: #FFFFFF;
+    box-shadow: 2px -2px 0px rgba(0, 0, 0, 0.25);
+    opacity: 1;
+    width: 18px;
+    height: 18px;
+}
+
+.main-comment-content .flickity-page-dots .is-selected{
+    background-color: #F7941D;
+}
+
+.main-comment-content .flickity-page-dots{
+    bottom: -70px;
+}
+
+.main-modal .modal-header,.main-modal .modal-body{
+    padding: 1em;
+}
+
+.main-modal .modal-body video{
+    height: auto;
+}
+
+.main-modal .close{
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+
+/*---------------------------------------- phần luyện thi cùng ---------------------------*/
+.main-train{
+    position: relative;
+    padding-bottom: 0;
+}
+
+.main-train>img:first-child{
+    top: 40px;
+    position: absolute;
+    left: 0;
+}
+
+.main-train>img:nth-child(3){
+    bottom: 200px;
+    right: 0;
+    position: absolute;
+
+}
+
+.main-train>img:last-child{
+    width: 100%;
+}
+
+.main-train-content{
+    margin: 90px 0 30px 0;
+}
+
+.main-train-content-item-img{
+    width: 288px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+.main-train>.section-content{
+    margin-bottom: 70px;
+}
+
+.main-train-content-item-img img{
+    object-fit: cover;
+}
+
+.main-train-content-item-img .img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.main-train-link{
+    margin: 30px 0;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 45px;
+    color: #271344;
+}
+
+.main-news-content-item{
+    border-radius: 24px;
+    background-color: #EEF9FC;
+    overflow: hidden;
+}
+
+.main-news-content-item:hover{
+    background-color: #ff4880 !important;
+}
+
+.main-news-content-item:hover .news-box-img>img:nth-child(2){
+    display: none;
+}
+
+.main-news-content-item:hover .news-box-img>img:last-child{
+    display: block;
+}
+
+.main-news-content-item:hover .news-item-info{
+    color: #fff;
+    background-color: #ff4880 !important;
+}
+
+.main-news-content-item:hover .news-item-info-title,
+.main-news-content-item:hover .news-item-info-content{
+    color: #fff !important;
+}
+
+.news-box-img{
+    position: relative;
+    height: 264px;
+}
+
+.news-box-img>img:nth-child(1){
+    width: 100%;
+    height: 100%;
+}
+
+.news-box-img img:nth-child(2){
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    left: 0;
+}
+
+.news-box-img img:last-child{
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    left: 0;
+    display: none;
+}
+
+.news-item-info{
+    padding: 11px;
+    color: #271344;
+    margin-top: -2px;
+}
+
+.news-item-info p{
+    margin-bottom: 10px;
+}
+
+.news-item-info-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.news-item-info-date{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.news-item-info-content{
+    font-weight: 400;
+    -webkit-line-clamp: 2 !important;
+}
+
+.news-item-info-tt{
+    width: 100%;
+    display: flex;
+}
+
+.news-item-info-tt li{
+    width: 50%;
+}
+
+
+/*-------------------------- Resspone sive ------------------------*/
+@media screen and (max-width: 1200px) {
+    .news-box-img{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-main-title-content h3{
+        font-size: 24px;
+    }
+
+    .section-main-title-content h2{
+        font-size: 28px;
+    }
+
+    .section-main-title-content p{
+        font-size: 16px;
+    }
+
+    .main-train-content-item-img{
+        width: 240px;
+        height: 240px;
+        margin-bottom: 15px;
+    }
+
+    .main-train>img:first-child{
+        width: 110px;;
+    }
+
+    .main-train>img:nth-child(3){
+        bottom: 115px;
+        width: 150px;
+    }
+
+    .main-train-link{
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .news-box-img{
+        height: 135px;
+    }
+
+    .news-item-info-title{
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .news-item-info-date,.news-item-info-content{
+        font-size: 13px;
+    }
+
+    .main-comment .section-main-title{
+        padding:0 0 20px 0 ;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .section-main-title-content p{
+        font-size: 14px;
+    }
+
+    .main-train-content{
+        margin: 30px 0;
+    }
+    
+    .section-main-title-content p{
+        font-size: 13px;
+    }
+}  
+  
+@media screen and (max-width: 576px) {
+    .section-main-title-content h3{
+        font-size: 22px;
+    }
+    .section-main-title-content h2{
+        font-size: 26px;
+    }
+
+    section{
+        padding: 30px 0;
+    }
+    
+    .main-train>img:first-child{
+        top: 0;
+    }
+
+    .main-train>.section-content{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .slider-content-item-title{
+        padding: 110px 0;
+    }
+
+    .main-programme-content .row .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+

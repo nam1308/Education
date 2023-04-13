@@ -1,0 +1,144 @@
+@import '../style.css';
+@import '../general/general.css';
+@import '../layout/header.css';
+@import '../layout/footer.css';
+
+/*--------------------------------- Nội dung page ---------------------------------*/
+.free-material{
+    padding: 0;
+    padding-bottom: 100px;
+    background-color: #E7F8FE;
+}
+
+.free-material>img{
+    width: 100%;
+}
+
+.free-material-content{
+    background: #FFFFFF;
+    border: 4px dashed #FF4880;
+    border-radius: 70px;
+    padding: 70px 60px 80px 60px;
+}
+
+.free-material-left{
+    background: #FFFFFF;
+    border-radius: 24px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    padding: 26px 16px;
+}
+
+.free-material-click{
+    width: 100%;
+    padding: 10px 19px;
+    background-color: var(--secondary-color);
+    border-radius: 24px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-material-click a{
+    color: #fff;
+    font-size: 24px;
+}
+
+.free-material-drop{
+    margin-left: 50px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.free-material-drop li{
+    list-style: disc;
+    margin-bottom: 8px;
+}
+
+.free-material-drop li a{
+    color: #444444;
+    font-size: 18px;
+}
+
+.free-material-right .col-md-6 {
+    margin-bottom: 40px;
+}
+
+.free-material-right .news-box-img{
+    height: 177px;
+}
+
+.free-material-left-item{
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.free-material-left-item ul{
+    display: none;
+}
+
+/*-------------------------- Resspone sive ------------------------*/
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .free-material-content .row .col-lg-7{
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .free-material-content .row .col-lg-5{
+        order: 2;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .free-material-content{
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+
+    .free-material-right .col-md-6{
+        margin-bottom: 30px;
+    }
+}  
+  
+@media screen and (max-width: 450px) {
+    .free-material-right .news-box-img{
+        height: 135px;
+    }
+
+    .free-material-click{
+        padding: 3px 12px;
+        font-size: 20px;
+    }
+
+    .free-material-click a{
+        font-size: 20px;
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
